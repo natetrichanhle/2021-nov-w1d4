@@ -1,0 +1,77 @@
+.container {
+    background-color: whitesmoke;
+    border:5px solid gainsboro;
+    margin: 100px 200px;
+}
+
+.profile {
+    background-color: burlywood;
+    height: 160px;
+    margin-bottom: -50px;
+}
+
+.profile img {
+    height: 200px;
+    margin-left: 40px;
+    margin-top: 60px;
+    margin-bottom: -20px;
+}
+
+.profile h1 {
+    margin-left: 40px;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+
+.about {
+    align-items: center;
+    margin-top: 200px;
+    margin-left: 40px;
+}
+
+.marker {
+    display:flex;
+    align-items: center;
+    height: 20px;
+    margin-bottom: -20px;
+}
+
+.marker h2 {
+    margin-left: 15px;
+    height: 20px;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+
+.marker img {
+    height: 20px;
+}
+
+.gear {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.gear h2 {
+    margin-left: 15px;
+    font-family: sans-serif;
+    font-weight: normal;
+    color: rgb(41, 145, 243);
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.gear img {
+    height: 20px;
+}
+
+.description {
+    font-family: sans-serif;
+    font-weight: normal;
+    margin: 40px 20px 10px 0px;
+}
+
+.description p {
+    margin-bottom: -15px;
+}
