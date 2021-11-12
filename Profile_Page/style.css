@@ -147,14 +147,14 @@ a {
 
 .container3 {
     background-color: white;
+    margin-top: 20px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    justify-content: flex-end;
 }
 
 .connection-container {
     background-color: white;
     border: 5px black;
-    width: 400px;
+    width: 400px;   
 }
 
 .con-card{
@@ -202,4 +202,49 @@ a {
 
 .requests h2 {
     padding-bottom: 20px;
+}
+
+.body {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.mycon-card {
+    width: 100%;
+    background-color: #FFFDD0;
+    border: 2px solid black;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+    margin-left: 20px;
+}
+
+.mycon-header {
+    background-color: #5C4827;
+    display: flex;
+    padding: 20px;
+}
+
+.mycon-header h2 {
+    margin-left: 10px;
+}
+
+.mycon {
+    border-radius: 45%;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #949E83;
+    width: 70px;
+    border: none;
+}
+
+.people {
+    padding: 20px;  
+}
+
+.view {
+    color: #3a81e6;
+    text-decoration: underline;
+    font-size: 25px;
 }
